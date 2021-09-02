@@ -1,0 +1,311 @@
+*{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+body{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
+section{width:100%; max-width:1200px; margin:0px auto; display:table; position:relative;}
+h1{margin:0px auto; display:table; font-size:70px; padding:30px 0px;  text-align:center;}
+h1 span{font-weight:500;}
+
+header{width:100%; display:table; background-color:#808080; margin-bottom:0px;}
+#logo{float:left; font-size:40px; color:#fff; font-weight:600; padding:20px 0px;}
+nav{width:auto; float:right; margin-top:10px;}
+nav ul{display:table; float:right;}
+nav ul li{float:left;}
+nav ul li:last-child{padding-right:0px;}
+nav ul li a{color:#fff; font-size:18px; padding: 25px 20px; display:inline-block; transition: all 0.5s ease 0s;}
+nav ul li a:hover{background-color:#747576; color:#fde428; transition: all 0.5s ease 0s;}
+nav ul li a:hover i{color:#fde428; transition: all 0.5s ease 0s;}
+nav ul li a i{padding-right:10px; color:#747576; transition: all 0.5s ease 0s;}
+
+.toggle-menu ul{display:table; width:25px;}
+.toggle-menu ul li{width:100%; height:3px; background-color:#fff; margin-bottom:4px;}
+.toggle-menu ul li:last-child{margin-bottom:0px;}
+
+input[type=checkbox], label{display:none;}
+
+.content{display:table; margin-bottom:50px; width:100%; margin-top:25px;}
+.content h2{font-size:18px; font-weight:500; color:#747576; border-bottom:1px solid #fde428; display:table; padding-bottom:10px; margin-bottom:10px;}
+.content p{font-size:14px; line-height:22px; color:#7c7c7c; text-align:justify;}
+.uno{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  border: 0px;
+}
+.oscuro{
+  width: 100%;
+  background-color: #1F1F1F;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  color:#fff;
+}
+.blanco{
+  width: 100%;
+  background-color: #fff;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  color:#333;
+}
+.gris{
+  width: 100%;
+  background-color: #D6D6D6;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  color:#333;
+}
+.dos{
+  width: 96%;
+  background-image: url("img/lines.jpg"); 
+  background-color: #808080;
+  background-size: cover; 
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  color: #ffffff;
+}
+
+#contenedor {
+ text-align: center;
+ width: 100%;
+ margin: auto;
+ padding-top: 100px;
+}
+#col1 {
+ width: 33%;  /* Este será el ancho que tendrá tu columna */
+ float:left; 
+}
+
+#col2 {
+ width: 33%;
+ float: left;
+}
+
+#col3 {
+ width: 33%;
+ float: right;
+}
+
+img {
+height: auto;
+max-width: 100%;
+}
+
+/* Galeria 2 */
+div.galeria {
+border: 1px solid #ccc;
+}
+div.galeria:hover {
+border: 1px solid #777;
+}
+div.galeria img {
+width: 100%;
+height: auto;
+}
+div.desc {
+padding: 15px;
+text-align: center;
+}
+* {
+box-sizing: border-box;
+}
+.responsive {
+padding: 0 6px;
+float: left;
+width: 50%;
+}
+@media only screen and (max-width: 700px) {
+.responsive {
+width: 49.99999%;
+margin: 6px 0;
+}
+}
+@media only screen and (max-width: 500px) {
+.responsive {
+width: 100%;
+}
+}
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+footer{display:table; padding-bottom:30px; width:100%;}
+.social{margin:0px auto; display:table; display:table;}
+.social li{float:left; padding:0px 10px;}
+.social li a{color:#747576; transition: all 0.5s ease 0s;}
+.social li a:hover{color:#fde428; transition: all 0.5s ease 0s;}
+
+div.vertical-line{
+  width: 1px;
+  background-color: silver;
+  height: 100%;
+  float: left;
+  border: 2px ridge silver ;
+  border-radius: 2px;
+}
+
+#footer {
+background-color: #FFFFFF; 
+ text-align: center;
+ width: 100%;
+ margin: auto;
+ padding: 50px 0 50px 0;
+}
+
+.frow {
+    clear:both;
+	  padding:10px;
+}
+
+.frow .col {
+  float
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+  background:#fff;
+  padding:2%;
+}
+
+.frow .col:first-child { margin-left: 0; }
+
+.frow .col4 {
+  width: 25%;
+  
+}
+
+.frow .col3 {
+  width: 2%;
+	}
+
+
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%;  margin-left: 0 !important;}
+	.frow .col3, .frow .col4 { width: 100%; }
+}
+
+
+/* Para limpiar los floats */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 1440px) {
+section{max-width:95%;}
+}
+
+@media only screen and (max-width: 980px) {
+header{padding:20px 0px;}
+#logo{padding:0px;}
+input[type=checkbox] {position: absolute; top: -9999px; left: -9999px; background:none;}
+input[type=checkbox]:fous{background:none;}
+label {float:right; padding:8px 0px; display:inline-block; cursor:pointer; }
+input[type=checkbox]:checked ~ nav {display:block;}
+
+nav{display:none; position:absolute; right:0px; top:53px; background-color:#747576; padding:0px; z-index:99;}
+nav ul{width:auto;}
+nav ul li{float:none; padding:0px; width:100%; display:table;}
+nav ul li a{color:#FFF; font-size:15px; padding:10px 20px; display:block; border-bottom: 1px solid rgba(225,225,225,0.1);}
+nav ul li a i{color:#fde428; padding-right:13px;}
+}
+
+@media only screen and (max-width: 980px) {
+.content{width:90%;}
+}
+
+@media only screen and (max-width: 568px) {
+h1{padding:25px 0px;}
+h1 span{display:block;}
+}
+
+@media only screen and (max-width: 480px) {
+section {max-width: 90%;}
+}
+
+@media only screen and (max-width: 360px) {
+h1{font-size:30px;}
+label{padding:5px 0px;}
+#logo{font-size: 30px;}
+nav{top:47px;}
+}
+
+@media only screen and (max-width: 320px) {
+h1 {padding: 20px 0px;}
+}
+
+/* Comienzo de slider */
+.container{
+  margin: auto;
+  background-color: #D6D6D6;
+  width: 800px;
+  padding: 30px;
+  
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 800px;
+  height: 450px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#000;
+}
+
+ul.slider li img{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
